@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+.loginform{
+padding:10px;
+border:1px solid pink;
+border-radius:10px;
+float:right;
+margin-top:10px;
+}
+.form heading{
+background-color:red;
+color:white;
+padding:4px;
+text-align:center;
+}
+.sub{
+background-color:red;
+padding:7px 40px 7px 40px;
+color:white;
+font-weight:bold;
+margin-top:70px;
+border-radius:5px;
+}
+<div class="loginform">
+<h3 class="formheading">please login</h3>
+<form action="loginservlet" method"post">
+<table>
+<tr><td>Email:</td><td>
+<input type="email" name="email"/></td></tr>
+<tr><td>password</td></tr>
+<input type="password" name="password"/></td></tr>
+<tr><td colspan="2" style="text-align:center">
+<input class="sub" type="submit" value="login"/></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
